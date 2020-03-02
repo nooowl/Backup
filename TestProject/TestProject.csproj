@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+
+        <RootNamespace>TestProject1</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="nunit" Version="3.12.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Backup\Backup.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="TestResources\TestDirectory1\Arbalester.gif" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Arbalester.jpg" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Arbalester.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Cyclops.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Devil.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Devil2.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\DevilDog.jpg" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Dragon.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Fury.jpg" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Griffin.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Griffin2.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Hydra1.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Hydra2.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Leach.jpg" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Leach.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\LittleMouse.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Shaman.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory1\Skeleton.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory2\arrow_down.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory2\arrow_up.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TestDirectory2\delete_feed.png" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\Settings.json" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\BadSettings.json" CopyToOutputDirectory="Always" />
+        <None Include="TestResources\TxtSettings.txt" CopyToOutputDirectory="Always" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="TestResources\Temp" />
+    </ItemGroup>
+
+</Project>

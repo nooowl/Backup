@@ -1,0 +1,7 @@
+﻿{
+  "SourceDirectories": [
+    "D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory1",
+    "D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory2"
+  ],
+  "TargetDirectory": "D:\\ITMO\\Разработка ПО\\lab1\\Temp"
+}
