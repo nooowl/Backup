@@ -1,7 +1,7 @@
-###Backup
-#####Summary
+### Backup
+##### Summary
 Создание резервной копии всех указанных в файле настроек директорий и одиночных файлов.
-#####Start
+##### Start
 
  ```bash
 Backup <settings type> <settings file path>
@@ -11,7 +11,7 @@ Avalable settings types:
 - xml
 - json
 
-#####Settings Format
+##### Settings Format
 Json example:
 ```json
 {
