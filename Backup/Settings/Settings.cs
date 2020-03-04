@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BackupFile.Settings
+namespace Backup.Settings
 {
     public class Settings
     {

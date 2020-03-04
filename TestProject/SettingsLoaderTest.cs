@@ -1,4 +1,4 @@
-﻿using BackupFile.Settings;
+﻿using Backup.Settings;
 using NUnit.Framework;
 
 namespace TestProject1

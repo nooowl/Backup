@@ -1,6 +1,5 @@
 ﻿using System.IO;
 using Backup;
-using BackupFile;
 using NUnit.Framework;
 
 namespace TestProject1
