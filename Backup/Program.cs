@@ -41,6 +41,15 @@ namespace Backup
             {
                 throw new AbortException("Can't copy files from directories", e);
             }
+
+            try
+            {
+                Copier.CopyAllFiles(settings.SourceFiles, fullPath);
+            }
+            catch (Exception e)
+            {
+                throw new AbortException("Can't copy source files", e);
+            }
         }
         public static void Main(string[] args)
         {

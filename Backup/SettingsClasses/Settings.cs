@@ -10,6 +10,11 @@ namespace Backup.SettingsClasses
         [XmlArray("SourceDirectories")]
         [XmlArrayItem("SourceDirectory")]
         public string[] SourceDirectories { get; set; }
+        
+        [JsonProperty("SourceFiles")]
+        [XmlArray("SourceFiles")]
+        [XmlArrayItem("SourceFile")]
+        public string[] SourceFiles { get; set; }
 
         [JsonProperty("TargetDirectory")]
         [XmlElement("TargetDirectory")]

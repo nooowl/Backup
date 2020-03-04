@@ -17,6 +17,14 @@ namespace Backup
                 Path.Combine(directoryFullPath,
                     file.Split('\\').Last()));
         }
+
+        public static void CopyAllFiles(IEnumerable<string> files, string directoryFullPath)
+        {
+            foreach (var file in files)
+            {
+                CopyOneFile(file, directoryFullPath);
+            }
+        }
         
         /// <summary>
         /// Копирует одну указанную директорию в другую
@@ -25,10 +33,7 @@ namespace Backup
         /// <param name="directoryFullPath">Директория, в которую происходит копирование</param>
         public static void CopyFilesFromDirectory(string directory, string directoryFullPath)
         {
-            foreach (var file in Directory.EnumerateFiles(directory))
-            {
-                CopyOneFile(file, directoryFullPath);
-            }
+            CopyAllFiles(Directory.EnumerateFiles(directory), directoryFullPath);
         }
 
         /// <summary>

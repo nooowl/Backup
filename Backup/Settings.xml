@@ -4,5 +4,8 @@
         <SourceDirectory>D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory1</SourceDirectory>
         <SourceDirectory>D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory2</SourceDirectory>
     </SourceDirectories>
+    <SourceFiles>
+        <SourceFile>D:\\ITMO\\Разработка ПО\\lab1\\dog.jpg</SourceFile>
+    </SourceFiles>
     <TargetDirectory>D:\\ITMO\\Разработка ПО\\lab1\\Temp</TargetDirectory>
 </Settings>
