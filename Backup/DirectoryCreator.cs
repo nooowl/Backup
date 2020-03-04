@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace BackupFile
+namespace Backup
 {
     public static class DirectoryCreator
     {
