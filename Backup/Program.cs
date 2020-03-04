@@ -5,11 +5,9 @@ namespace BackupFile
 {
     internal static class Program
     {
-        public const string SettingsFileName = @"D:\ITMO\Разработка ПО\lab1\BackupFile\Backup\Settings.json";
-            
-        public static void Main()
+        public static void Main(string[] args)
         {
-            var settings = new SettingsLoader().Load(SettingsFileName);
+            var settings = SettingsLoaderFactory.GetSettingsLoader(args[0]).Load(args[1]);
 
             var fullPath = DirectoryCreator.CreateWithTimeMark(settings.TargetDirectory);
 
