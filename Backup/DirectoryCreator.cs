@@ -6,8 +6,7 @@ namespace Backup
     public static class DirectoryCreator
     {
         private static string FolderName =>
-            DateTime.Now.ToShortDateString() + ' ' +
-            DateTime.Now.ToShortTimeString().Replace(':', '-');
+            DateTime.Now.ToString("dd.MM.yyyy hh-mm");
 
         private static string GetFullPath(string targetDirectory) =>
             Path.Combine(targetDirectory, FolderName);
