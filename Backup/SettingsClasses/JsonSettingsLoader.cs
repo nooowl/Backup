@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
 
-namespace Backup.Settings
+namespace Backup.SettingsClasses
 {
     public class JsonSettingsLoader : ISettingsLoader
     {

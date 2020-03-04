@@ -1,4 +1,4 @@
-﻿namespace Backup.Settings
+﻿namespace Backup.SettingsClasses
 {
     public static class SettingsLoaderFactory
     {

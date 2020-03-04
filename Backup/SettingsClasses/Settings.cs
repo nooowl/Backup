@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
 using Newtonsoft.Json;
 
-namespace Backup.Settings
+namespace Backup.SettingsClasses
 {
     [XmlRoot("Settings")]
     public class Settings

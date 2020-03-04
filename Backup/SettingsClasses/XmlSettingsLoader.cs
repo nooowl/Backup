@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Xml.Serialization;
 
-namespace Backup.Settings
+namespace Backup.SettingsClasses
 {
     public class XmlSettingsLoader : ISettingsLoader
     {
