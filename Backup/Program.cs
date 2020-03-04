@@ -1,7 +1,6 @@
-﻿using Backup;
-using BackupFile.Settings;
+﻿using Backup.Settings;
 
-namespace BackupFile
+namespace Backup
 {
     
     internal static class Program

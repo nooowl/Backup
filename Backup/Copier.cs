@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace BackupFile
+namespace Backup
 {
     public static class Copier
     {

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
 
-namespace BackupFile.Settings
+namespace Backup.Settings
 {
     public static class SettingsLoader
     {
