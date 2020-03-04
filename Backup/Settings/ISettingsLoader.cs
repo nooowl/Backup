@@ -1,4 +1,4 @@
-﻿namespace BackupFile.Settings
+﻿namespace Backup.Settings
 {
     public interface ISettingsLoader
     {
