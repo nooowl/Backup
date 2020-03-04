@@ -51,6 +51,7 @@ namespace Backup
                 throw new AbortException("Can't copy source files", e);
             }
         }
+        
         public static void Main(string[] args)
         {
             try

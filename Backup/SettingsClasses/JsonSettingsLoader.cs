@@ -6,7 +6,7 @@ namespace Backup.SettingsClasses
     public class JsonSettingsLoader : ISettingsLoader
     {
         /// <summary>
-        /// Загружает данные из файла настроек, десериализуя его в экземпляр класса Settings
+        /// Загружает данные из файла настроек формата json, десериализуя его в экземпляр класса Settings
         /// </summary>
         /// <param name="file">Имя файла настроек</param>
         /// <returns>Экземпляр класса Settings</returns>

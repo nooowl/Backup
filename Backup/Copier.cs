@@ -18,6 +18,11 @@ namespace Backup
                     file.Split('\\').Last()));
         }
 
+        /// <summary>
+        /// Копирует указанные файлы в директорию
+        /// </summary>
+        /// <param name="files">Копируемые файлы</param>
+        /// <param name="directoryFullPath">Директория, в которую происходит копирование</param>
         public static void CopyAllFiles(IEnumerable<string> files, string directoryFullPath)
         {
             foreach (var file in files)
