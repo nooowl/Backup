@@ -3,5 +3,8 @@
     "D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory1",
     "D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory2"
   ],
+  "SourceFiles": [
+    "D:\\ITMO\\Разработка ПО\\lab1\\dog.jpg"
+  ],
   "TargetDirectory": "D:\\ITMO\\Разработка ПО\\lab1\\Temp"
 }
