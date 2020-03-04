@@ -39,7 +39,7 @@ namespace Backup
             }
             catch (Exception e)
             {
-                throw new AbortException("Can't copy", e);
+                throw new AbortException("Can't copy files from directories", e);
             }
         }
         public static void Main(string[] args)
