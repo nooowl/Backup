@@ -16,7 +16,7 @@ namespace TestProject1
         [TestCase(@"TestResources\Settings.json")]
         public void GoodLoad(string jsonFile)
         {
-            var settings = SettingsLoader.Load(jsonFile);
+            var settings = new SettingsLoader().Load(jsonFile);
             Assert.IsTrue(IsNull(settings));
         }
 
@@ -24,7 +24,7 @@ namespace TestProject1
         [TestCase(@"TestResources\BadSettings.json")]
         public void BadLoad(string jsonFile)
         {
-            var settings = SettingsLoader.Load(jsonFile);
+            var settings = new SettingsLoader().Load(jsonFile);
             Assert.IsFalse(IsNull(settings));
         }
         
@@ -32,7 +32,7 @@ namespace TestProject1
         [TestCase(@"TestResources\TxtSettings.txt")]
         public void TxtLoad(string jsonFile)
         {
-            Assert.That(() => { SettingsLoader.Load(jsonFile); }, 
+            Assert.That(() => { new SettingsLoader().Load(jsonFile); }, 
                 Throws.Exception);
             
         }

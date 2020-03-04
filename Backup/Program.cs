@@ -8,7 +8,7 @@ namespace BackupFile
     {
         public static void Main()
         {
-            var settings = SettingsLoader.Load(@"D:\ITMO\Разработка ПО\lab1\BackupFile\Backup\Settings.json");
+            var settings = new SettingsLoader().Load(@"D:\ITMO\Разработка ПО\lab1\BackupFile\Backup\Settings.json");
 
             var fullPath = DirectoryCreator.CreateWithTimeMark(settings.TargetDirectory);
 
