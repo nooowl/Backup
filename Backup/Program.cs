@@ -2,12 +2,11 @@
 
 namespace Backup
 {
-    
     internal static class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
-            var settings = SettingsLoader.Load(@"D:\ITMO\Разработка ПО\lab1\BackupFile\Backup\Settings.json");
+            var settings = SettingsLoaderFactory.GetSettingsLoader(args[0]).Load(args[1]);
 
             var fullPath = DirectoryCreator.CreateWithTimeMark(settings.TargetDirectory);
 

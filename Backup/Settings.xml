@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <SourceDirectories>
+        <SourceDirectory>D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory1</SourceDirectory>
+        <SourceDirectory>D:\\ITMO\\Разработка ПО\\lab1\\TestDirectory2</SourceDirectory>
+    </SourceDirectories>
+    <TargetDirectory>D:\\ITMO\\Разработка ПО\\lab1\\Temp</TargetDirectory>
+</Settings>
